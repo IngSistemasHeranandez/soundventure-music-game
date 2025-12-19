@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+# SoundVenture – Music Game 🎮🎹
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1679" height="913" alt="image" src="https://github.com/user-attachments/assets/0150914a-bbc7-48fa-9132-a829b8ed12cb" />
+<img width="1679" height="1049" alt="image" src="https://github.com/user-attachments/assets/080e17b7-86e6-4a37-9a19-eea2ec75508c" />
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicación web desarrollada como proyecto académico enfocada en la **interpretación musical interactiva mediante piano MIDI**.
+La aplicación permite cargar archivos MIDI (.mid), visualizar las notas en un render gráfico tipo *falling notes* y validar en tiempo real las notas tocadas por el usuario.
 
-## Expanding the ESLint configuration
+Este proyecto funciona como base para el desarrollo de una experiencia tipo juego musical.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías utilizadas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Frontend
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+* React
+* Vite
+* JavaScript / TypeScript
+* Tailwind CSS
+* @pixi/react
+* React Router DOM
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Integración musical
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+* Web MIDI API
+* Lectura e interpretación de archivos MIDI (.mid)
+
+---
+
+## Funcionalidades (versión actual)
+
+* Conexión con piano MIDI
+* Carga manual de archivos MIDI
+* Renderizado visual de notas en tiempo real
+* Controles de reproducción (play, pausa, adelantar, retroceder)
+* Validación de notas tocadas vs. notas esperadas
+* Información musical contextual:
+
+  * Clave musical actual (Sol / Fa)
+  * Notas presionadas
+  * Nota o acorde esperado
+
+---
+
+## Estado del proyecto
+
+Proyecto en desarrollo.
+La versión actual incluye el render MIDI, la validación de notas y la interacción con piano MIDI.
+
+---
+
+## Objetivo académico
+
+* Integración de dispositivos MIDI en aplicaciones web
+* Renderizado gráfico en tiempo real
+* Validación de eventos musicales
+* Desarrollo de interfaces interactivas
+
+---
