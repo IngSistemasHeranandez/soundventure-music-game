@@ -1,7 +1,7 @@
 # SoundVenture – Music Game 🎮🎹
 
 <img width="1679" height="913" alt="image" src="https://github.com/user-attachments/assets/0150914a-bbc7-48fa-9132-a829b8ed12cb" />
-<img width="1679" height="1049" alt="image" src="https://github.com/user-attachments/assets/e6b829db-1783-4e2e-a1c3-50df7d2872e9" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5c9d0751-2312-4308-8eb8-69f50ccbc796" />
 
 ## Descripción
 
@@ -37,11 +37,6 @@ Este proyecto funciona como base para el desarrollo de una experiencia tipo jueg
 * Renderizado visual de notas en tiempo real
 * Controles de reproducción (play, pausa, adelantar, retroceder)
 * Validación de notas tocadas vs. notas esperadas
-* Información musical contextual:
-
-  * Clave musical actual (Sol / Fa)
-  * Notas presionadas
-  * Nota o acorde esperado
 
 ---
 
