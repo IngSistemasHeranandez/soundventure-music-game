@@ -1,14 +1,16 @@
 # SoundVenture – Music Game 🎮🎹
 
-<img width="1679" height="913" alt="image" src="https://github.com/user-attachments/assets/0150914a-bbc7-48fa-9132-a829b8ed12cb" />
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5c9d0751-2312-4308-8eb8-69f50ccbc796" />
-
 ## Descripción
 
 Aplicación web desarrollada como proyecto académico enfocada en la **interpretación musical interactiva mediante piano MIDI**.
 La aplicación permite cargar archivos MIDI (.mid), visualizar las notas en un render gráfico tipo *falling notes* y validar en tiempo real las notas tocadas por el usuario.
 
 Este proyecto funciona como base para el desarrollo de una experiencia tipo juego musical.
+
+---
+
+<img width="1679" height="913" alt="image" src="https://github.com/user-attachments/assets/0150914a-bbc7-48fa-9132-a829b8ed12cb" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5c9d0751-2312-4308-8eb8-69f50ccbc796" />
 
 ---
 
